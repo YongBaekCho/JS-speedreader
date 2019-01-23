@@ -1,0 +1,85 @@
+/*
+csc 337
+CSS styles for speedreader webpage
+*/
+
+body{
+	background-color: #EAF6F6;
+	font-family: Garamond, serif;
+	font-size: 12pt;
+	text-align: center;
+}
+
+button, #output, .textarea{
+	background-color: #FFFFFF;
+}
+
+#output{
+	width: 80%;
+	height: 100px;
+	margin:auto;
+	border: 2px solid #8EBEBE;
+	border-radius: 5px;
+	line-height: 100px;
+}
+
+fieldset{
+	border: 0px;
+}
+
+textarea{
+	text-align:left;
+}
+
+label{
+	text-align: left;
+	display:inline-block;
+	font-weight: bold;
+	padding: 2px;
+	margin-bottom: 5px;
+	width: 100%;
+	border-bottom: 1px solid #8EBEBE;
+}
+
+button, textarea{
+	border: 1px solid gray;
+}
+
+button{
+	width: 70px;
+}
+
+#validator{
+	position:absolute;
+	bottom: 0;
+	left: 5px;
+}
+
+#validator img{
+	width: 70px;
+}
+
+.medium{
+	font-size: 36pt;
+}
+
+.big{
+	font-size: 48pt;
+}
+
+.bigger{
+	font-size: 60pt;
+}
+
+.settings, #textInput{
+	display: inline;
+	padding-top: 0px;
+}
+
+.settings {
+	vertical-align:top;
+}
+
+button:disabled{
+	background-color: lightgray;
+}
